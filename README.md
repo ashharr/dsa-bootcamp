@@ -1,4 +1,4 @@
-# Data Structures and Algorithms in Python
+# Data Structures and Algorithms in Python 🐍
 
 LeetCode/Codechef problems solved with optimized time and space complexity
 

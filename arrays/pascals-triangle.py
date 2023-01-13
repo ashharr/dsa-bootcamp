@@ -14,7 +14,9 @@ class Solution:
 
 # Linear Solution
 
-
+#     1 3 3 1 0 
+#  +  0 1 3 3 1
+#  =  1 4 6 4 1 => NEXT LIST
 class Solution:
     def generate(self, numRows: int) -> list[list[int]]:
         res = [[1]]
