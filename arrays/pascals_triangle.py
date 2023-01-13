@@ -6,7 +6,7 @@
 # Quadratic Solution
 class Solution:
     def generate(self, numRows: int) -> list[list[int]]:
-        pascal = [[1]*(i+1) for i in range(numRows)]
+        pascal = [[1]*(i+1) for i in range(numRows)]  # pascal full of ones
         for i in range(numRows):
             for j in range(1, i):
                 pascal[i][j] = pascal[i-1][j-1] + pascal[i-1][j]
