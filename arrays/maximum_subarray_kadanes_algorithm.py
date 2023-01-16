@@ -13,6 +13,18 @@ class Solution:
     numbs = [-2,1,-3,4,-1,2,1,-5,4]
     # TC: O(n) 
     # SC: O(1)
+
+    #a cubic solution
+    # maxsofar = 0;
+    # n = len(numbs) 
+    # for i in range(0,n):
+    #     for j in range(i,n):
+    #         sum = 0;
+    #         for k in range(i,j+1):
+    #             sum += numbs[k]
+    #             if (sum > maxsofar):
+    #                 maxsofar = sum
+    # print(maxsofar)
     def maxSubArray(nums: list[int]) -> int:
         local_max = global_max = nums[0]
         for i in range(1, len(nums)):
