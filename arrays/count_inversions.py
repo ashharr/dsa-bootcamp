@@ -111,8 +111,8 @@ def merge(arr, temp_arr, left, mid, right):
   
     # Copy the sorted subarray into 
     # Original array
-    for loop_var in range(left, right + 1):
-        arr[loop_var] = temp_arr[loop_var]
+    for m in range(left, right + 1):
+        arr[m] = temp_arr[m]
           
     return inv_count
   
