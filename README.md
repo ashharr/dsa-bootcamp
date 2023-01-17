@@ -5,7 +5,7 @@ LeetCode/Codechef problems solved with optimized time and space complexity
 It includes: \
 ♦ Arrays \
 ♦ Linked List \
-♦ Arrays \
+♦ Strings \
 ♦ Greedy Algorithms \
 ♦ Recursion \
 ♦ Backtracking \
