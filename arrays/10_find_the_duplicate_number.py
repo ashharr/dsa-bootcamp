@@ -9,7 +9,7 @@
 
 
 class Solution:
-    def findDuplicate(self, nums: List[int]) -> int:
+    def findDuplicate(self, nums: list[int]) -> int:
 
         # Assuming the Array is a Linked List with a cycle
         # Using Floyds Hare and Tortoise algorithm to solve it
