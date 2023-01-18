@@ -37,6 +37,7 @@ class Solution:
         # return res
 
         # III. Moore's Voting Algorithm
+        
         count, candidate = 0, 0
         for num in nums:
             if count == 0:
@@ -46,5 +47,11 @@ class Solution:
             else:
                 count -= 1
         return candidate
+
+        #  This algorithm works by maintaining a current candidate for the majority element
+        #  and a count of the occurrences of that element. It iterates through the list of 
+        #  elements, updating the candidate and count based on the current element. If the 
+        #  count reaches 0, the current element becomes the new candidate. At the end of 
+        #  the iteration, the candidate is returned as the majority element.
 
         
