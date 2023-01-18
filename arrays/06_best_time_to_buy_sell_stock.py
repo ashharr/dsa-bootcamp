@@ -17,7 +17,7 @@ class Solution:
             if low > prices[i]:
                 low = prices[i]
             else:
-                temp = prices[i] - low
-                if temp > max_profit:
-                    max_profit = temp
+                diff = prices[i] - low
+                if diff > max_profit:
+                    max_profit = diff
         return max_profit

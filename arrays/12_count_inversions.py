@@ -113,7 +113,7 @@ def merge(arr, temp_arr, left, mid, right):
     # Original array
     for m in range(left, right + 1):
         arr[m] = temp_arr[m]
-          
+
     return inv_count
   
 # Driver Code
