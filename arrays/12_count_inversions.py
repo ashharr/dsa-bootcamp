@@ -118,7 +118,7 @@ def merge(arr, temp_arr, left, mid, right):
   
 # Driver Code
 # Given array is
-arr = [1, 20, 6, 4, 5]
+arr = [6,9,3,2,1]
 n = len(arr)
 result = mergeSort(arr, n)
 print("Number of inversions are", result)
