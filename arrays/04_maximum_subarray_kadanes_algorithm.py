@@ -25,6 +25,17 @@ class Solution:
     #             if (sum > maxsofar):
     #                 maxsofar = sum
     # print(maxsofar)
+
+    # Kadane's algorithm is an efficient method for finding the largest sum of any contiguous subarray 
+    # in an array of integers. It starts by initializing a variable, called the "current sum," to the 
+    # first element of the array. It then iterates through the rest of the array, comparing the current 
+    # element to the current sum plus that element. If the current element is larger, the current sum is 
+    # set to that element. If the current sum plus the current element is larger, the current sum is updated 
+    # to the current sum plus the current element. The algorithm keeps track of the largest sum it has seen 
+    # so far, and returns that sum at the end. The time complexity of this algorithm is O(n) and this algorithm 
+    # is a dynamic programing solution for finding the maximum subarray problem
+
+
     def maxSubArray(nums: list[int]) -> int:
         local_max = global_max = nums[0]
         for i in range(1, len(nums)):
