@@ -3,6 +3,10 @@ class Node:
         self.data = data
         self.next = None
 
+class LinkedList:
+    def __init__(self):
+        self.head = None
+        
     def setNext( self, next):
         self.next = next
 
@@ -31,7 +35,7 @@ class Node:
         print("NULL")
 
 head = None 
-ll = Node(head)
+ll = LinkedList()
 for i in range(10,0, -1):
     head = ll.pushNode(head, i)
 
