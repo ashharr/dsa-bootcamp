@@ -1,5 +1,5 @@
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums: list[int]) -> int:
         
         # I. Brute Approach (Exceeds Time Limit)
         # max_count = 0
