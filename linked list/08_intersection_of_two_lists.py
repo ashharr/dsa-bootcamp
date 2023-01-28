@@ -9,7 +9,7 @@ class ListNode:
 
 class Solution:
     # I. Floyd Warshall Method
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(headA, headB):
         # floyd warshall method
         # creating loop by concatenating the lists
         last = headA
