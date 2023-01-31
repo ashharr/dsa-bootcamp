@@ -24,7 +24,7 @@ class Solution:
     #     h1.next = h1.next.next
     #     return h2
 
-    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    def removeNthFromEnd(self, head, n):
         slow, fast = head, head
         if head.next is None:
             return head.next
