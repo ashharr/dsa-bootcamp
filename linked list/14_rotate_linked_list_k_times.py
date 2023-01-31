@@ -14,6 +14,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+
 class Solution:
     def rotateRight(head, k):
         last, prev = head, head
@@ -28,10 +29,10 @@ class Solution:
             last.next = head
             head = last
         return head
-    
+
     h = ListNode(-1)
     hh = h
-    for i in range(1,4):
+    for i in range(1, 4):
         h.next = ListNode(i)
         h = h.next
     # print(h.val)

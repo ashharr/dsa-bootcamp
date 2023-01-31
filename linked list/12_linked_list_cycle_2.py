@@ -19,6 +19,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def detectCycle(head):
         slow, fast = head, head

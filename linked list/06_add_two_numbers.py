@@ -1,9 +1,9 @@
 # 2. Add Two Numbers
-# You are given two non-empty linked lists representing two non-negative integers. The digits 
+# You are given two non-empty linked lists representing two non-negative integers. The digits
 # are stored in reverse order, and each of their nodes contains a single digit.
 # Add the two numbers and return the sum as a linked list.
 # You may assume the two numbers do not contain any leading zero, except the number 0 itself.
- 
+
 
 # Example 1:
 
@@ -13,13 +13,16 @@
 
 # Definition for singly-linked list.
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
 class Solution:
     def addTwoNumbers(l1, l2):
-        
+
         # I. Naive Solution: convert to integer then add and create LL
         # def reverseList(head):
         #     curr, prev = head, None
@@ -59,7 +62,7 @@ class Solution:
         # return ress
 
         # I. Optimal Solution: Add directly to new LL with sum and carry
-        summ, carry = 0,0
+        summ, carry = 0, 0
         dummy = ListNode(-1)
         temp = dummy
         while l1 or l2 or carry:
@@ -75,7 +78,3 @@ class Solution:
             temp.next = ListNode(summ % 10)
             temp = temp.next
         return dummy.next
-
-    
-
-        
