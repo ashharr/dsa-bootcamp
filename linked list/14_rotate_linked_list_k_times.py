@@ -30,6 +30,23 @@ class Solution:
             head = last
         return head
 
+    def rotateRight2(head, k):
+        n = 0
+        last = head
+        while last:
+            n += 1
+            pre, last = last,last.next
+        if not n or not k % n:
+            return head
+        pre_first_element = n - k%n - 1
+        
+        tail = head
+        for _ in range(pre_first_element):
+            tail = tail.next
+        next, tail.next, pre.next = tail.next, None, head
+        return next
+
+
     h = ListNode(-1)
     hh = h
     for i in range(1, 4):
