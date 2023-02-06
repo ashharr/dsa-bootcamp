@@ -14,7 +14,7 @@
 
 
 class Solution:
-    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
+    def jobScheduling(self, startTime, endTime, profit) -> int:
         job = sorted(zip(startTime, endTime, profit), key = lambda x: x[1])
 
         dp_end_time = [0]
