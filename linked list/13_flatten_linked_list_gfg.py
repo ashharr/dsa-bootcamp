@@ -78,14 +78,15 @@ def flatten(root):
     #     # dummy = dummy.next
     #     print(arr[i], end=" ")
     
-    # recur for list on right 
+    # return the root 
     if root == None or root.next == None:
         return root
         
-    # now merge
+    
+    # recur for list on right 
     root.next = flatten(root.next)
     
-    # return the root 
+    # now merge
     # it will be in turn merged with its left 
     root = mergeTwoLists(root, root.next)
     
