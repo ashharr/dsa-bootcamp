@@ -18,19 +18,16 @@ public class BinarySearchUsingRecursion {
     }
     static int binarySearch(int[] arr,int left,int right, int x) {
         int mid = (left + right) /2;
-        int i;
+        if (left > right){
+            return -1;
+        }
         if (arr[mid] == x) {
             return mid;
         }
         else  if( x >= arr[mid]){
-            i = binarySearch(arr, mid+1, right, x);
+            return binarySearch(arr, mid+1, right, x);
         }
-        else if( x < arr[mid]){
-            i =binarySearch(arr, left, mid, x);
-        }
-        else{
-                return -1;
-            }
-        return i;
+        return binarySearch(arr, left, mid, x);
+
     }
 }
