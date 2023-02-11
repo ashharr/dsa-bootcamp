@@ -3,7 +3,7 @@ public class BinarySearchUsingRecursion {
         // write a function that takes in a number and prints it
         // print first 5 numbers: 1 2 3 4 5
         int ans = fibo(10);
-//        System.out.println(ans);
+       System.out.println(ans);
 
         int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
         int index = binarySearch(intArray,0, intArray.length-1,10);
