@@ -32,6 +32,7 @@ class Solution:
     # @param A : list of integers
     # @param B : integer
     # @return an integer
+    # I. Brute Approach
     # def solve(self, A, B):
     #     count = 0
     #     for i in range(len(A)):
@@ -44,7 +45,7 @@ class Solution:
     #                 count += 1
     #     return count
                     
-                    
+    # Hashset approach      
     def solve(self, A, B):
         visited = {}
         xorr = 0
