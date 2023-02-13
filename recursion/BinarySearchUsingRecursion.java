@@ -90,45 +90,4 @@ public class BinarySearchUsingRecursion {
         return left;
     }
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
-        int n = candidates.length;
-        void dfs(List<Integer> cur, int curSum, int index){
-            if(curSum > target){
-                return;
-            }
-            if(curSum == target) {
-                ans.add(new ArrayList<>(cur));
-                return;
-            }
-            for(i=0; i<candidates.length; i++) {
-                dfs(cur.add(candidates[i]), curSum + candidates[i], i, target, ans);
-                cur.remove(cur.size() - 1);
-            }
-        }
-        dfs(new ArrayList<>(), 0, 0);
-        return ans;
-    }
-    class Solution {
-        public List<List<Integer>> combinationSum(int[] candidates, int target) {
-            List<List<Integer>> ans = new ArrayList<>();
-            int n = candidates.length;
-            void dfs(List<Integer> cur, int curSum, int idx) {
-                if (curSum > target) return;
-                if (curSum == target) {
-                    ans.add(new ArrayList<>(cur));
-                    return;
-                }
-                for (int i = idx; i < n; i++) {
-                    cur.add(candidates[i]);
-                    dfs(cur, curSum + candidates[i], i);
-                    cur.remove(cur.size() - 1);
-                }
-            }
-            dfs(new ArrayList<>(), 0, 0);
-            return ans;
-        }
-    }
-
-
 }
