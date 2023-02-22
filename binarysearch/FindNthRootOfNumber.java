@@ -10,9 +10,6 @@
 //        Output: 4
 //        Explanation: The square root of 16 is 4
 
-
-import java.util.* ;
-import java.io.*;
 public class FindNthRootOfNumber {
     public static double findNthRootOfM(int n, int m) {
         // Write your code here.
