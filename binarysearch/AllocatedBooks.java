@@ -1,6 +1,7 @@
 package binarysearch;
-//Allocate Books | Medium
-//        Problem Description
+//        Allocate Books | Medium
+//        
+//        Problem Description:
 //        Given an array of integers A of size N and an integer B.
 //        The College library has N books. The ith book has A[i] number of pages.
 //        You have to allocate books to B number of students so that the maximum number of pages allocated to a student is minimum.
