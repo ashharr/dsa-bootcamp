@@ -1,4 +1,4 @@
-KthElementOfTwoSortedArrays
+//KthElementOfTwoSortedArrays
 
 //{ Driver Code Starts
 //Initial Template for Java
