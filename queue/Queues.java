@@ -20,7 +20,8 @@ class Queues {
         // Deque
         // You can remove and insert ffrfom both sides
 
-        Deque<Integer> deque = new ArrayDeque<>();
+        Deque<Integer> deque = new        Deque<Integer> deque = new ArrayDeque<>();
+ ArrayDeque<>();
         // used in trees
         // traversals left to right / right to left
 
@@ -28,10 +29,8 @@ class Queues {
         deque.addFirst(20);
         deque.add(30);
         deque.addLast(40);
-
         System.out.println(deque.removeFirst());
         System.out.println(Arrays.toString(deque.toArray()));
-
 
     }
 
