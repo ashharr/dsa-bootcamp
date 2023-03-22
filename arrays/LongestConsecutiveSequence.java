@@ -1,3 +1,7 @@
+package arrays;
+
+import java.util.HashSet;
+
 class LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
         HashSet s = new HashSet<>();
