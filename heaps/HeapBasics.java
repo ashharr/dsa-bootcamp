@@ -1,5 +1,16 @@
+
+// Time Complexity analysis | Space Complexity analysis
+// Create Binary Heap - O(1) | O(n)
+// Peek Heap - O(1) | O(1)
+// Size of Heap - O(1) | O(1)
+// Traversal of Heap - O(n) | O(1)
+// Insert - O(logN) | O(logN)
+// Extract node Binary Heap - O(logN) | O(logN)
+// Delete Binary Heap - O(1) | O(1)
+
+
 public class HeapBasics {
-    int arr[];
+    int[] arr;
     int sizeOfTree;
 
 
@@ -11,10 +22,7 @@ public class HeapBasics {
     }
 
     public boolean isEmpty(){
-        if(sizeOfTree == 0){
-            return true;
-        }
-        return false;
+        return sizeOfTree == 0;
     }
     public Integer peek(){
         if(isEmpty()){
@@ -126,6 +134,10 @@ public class HeapBasics {
         heapifyBottomToTop(sizeOfTree,heapType);
         System.out.println("Inserted "+value+" successfully in "+heapType+"Heap");
     }
+    public void deleteHeap(){
+        arr=null;
+        System.out.println("Binary Heap has been successfully deleted.");
+    }
     public static void main(String[] args) {
         HeapBasics obj = new HeapBasics(5);
         String heapType = "Min";
@@ -138,7 +150,6 @@ public class HeapBasics {
         obj.levelOrderTraversal();
         System.out.println(obj.extractHeadOfHeap(heapType) +" removed");
         obj.levelOrderTraversal();
-
 
     }
 }
