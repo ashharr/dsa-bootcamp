@@ -1,11 +1,11 @@
-# Data Structures and Algorithms in Python 🐍
+# 🎯Data Structures and Algorithms 
 
 LeetCode/Codechef problems solved with optimized time and space complexity
 
 
 
 It includes: 
-* Arrays 
+ * Arrays 
     * Set Matrix Zeroes
 	* Pascal’s Triangle
 	* Next Permutation
@@ -29,6 +29,10 @@ It includes:
 	* Largest Subarray with 0 sum
 	* Count number of subarrays with given Xor
 	* Longest Substring without repeat
+    * Three Sum
+    * Remove All Duplicated from Sorted
+    * Max Conscutive Ones
+    * Trapping Rainwater
 	<br><br>
 * Linked List 
 	* Reverse a LinkedList
@@ -43,15 +47,69 @@ It includes:
 	* Check if a LinkedList is palindrome or not.
 	* Find the starting point of the Loop of LinkedList
 	* Flattening of a LinkedList
+    * Rotate A linked list
+    * Copy list with random pointer
 
 	<br><br>
-* Strings 
+* Strings
+  <br><br>
 * Greedy Algorithms 
+	* N meetings in one room
+    * Minimum Platforms
+    * Maximum Profit in Job Scheduling
+    * Fractional Knapsack
+    * Find Minimum Number of Coins
+	  <br><br>
 * Recursion 
+	* Sum Of Subset
+    * Binary Search using Recursion
+    * Combination Sum
+    * Combination Sum II
+    * Palindrome Partitioning
+    * Permutation Sequence
+    * Subsets Two
+  <br><br>
 * Backtracking 
+  * M Coloring
+  * N Queens
+  * Permute
+  * Rat In A Maze
+  * Sudoku Solver
+	<br><br>
 * Binary Search
+  * Aggressive Cows
+  * Allocated Books
+  * Binary Search
+  * Find Nth Root of a Number
+  * Kth Element of Two Sorted Arrays
+  * Matrix Median
+  * Median Of two Arrays
+  * Search in Rotated Array
+  * Single Element in Sorted Array
+	<br><br>
 * Heaps
+  * Heaps
+  * Kth Largest In Array
+  * Kth Smallest In Sorted Matrix
+  * Minimum Cost N Ropes
+  * Top K Frequent
+  * Find Median From Data Stream
+<br><br>
 * Stacks and Queues 
+  * Custom Stack in Java
+  * Dynamic Stack
+  * Largest Rectangle in a Histogram
+  * LFU Cache
+  * LRU Cache
+  * Max Sliding Window
+  * Minimum to Make valid
+  * Next Greater Element
+  * Queues
+  * Queue using Stacks
+  * StackException
+  * Two Stacks
+  * Parenthesis Checker
+	<br><br>
 * Binary Tree
 * Graphs 
 * Dynamic Programming 
