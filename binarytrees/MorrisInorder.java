@@ -5,14 +5,14 @@ import java.util.List;
 
 public class MorrisInorder {
     List<Integer> res=new ArrayList<>();
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(NodeTree root) {
         while(root!= null){
             if(root.left == null){
                 res.add(root.val);
                 root = root.right;
             }
             else {
-                TreeNode prev = root.left;
+                NodeTree prev = root.left;
                 while(prev.right != null && prev.right != root){
                     prev = prev.right;
                 }
