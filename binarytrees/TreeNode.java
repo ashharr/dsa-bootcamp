@@ -3,24 +3,24 @@ import java.util.ArrayList;
 public class TreeNode {
     String data;
     int val;
-    NodeTree left;
-    NodeTree right;
-    ArrayList<NodeTree> children;
+    TreeNode left;
+    TreeNode right;
+    ArrayList<TreeNode> children;
 
     public TreeNode(String data) {
         this.data = data;
-        this.children = new ArrayList<NodeTree>();
+        this.children = new ArrayList<TreeNode>();
 
     }
 
-    public void addChild(NodeTree node){
+    public void addChild(TreeNode node){
         this.children.add(node);
     }
 
     public String print(int level){
         StringBuilder res;
         res = new StringBuilder("  ".repeat(level) + data + "\n");
-        for ( NodeTree node:
+        for ( TreeNode node:
         this.children) {
             res.append(node.print(level + 1));
         }
@@ -28,13 +28,13 @@ public class TreeNode {
     }
 
     public static void main(String[] args) {
-        NodeTree drinks = new NodeTree("Drinks");
-        NodeTree hot = new NodeTree("Hot");
-        NodeTree cold = new NodeTree("Cold");
-        NodeTree coffee = new NodeTree("Coffee");
-        NodeTree tea = new NodeTree("Tea");
-        NodeTree pepsi = new NodeTree("Pepsi");
-        NodeTree coke = new NodeTree("Coke");
+        TreeNode drinks = new TreeNode("Drinks");
+        TreeNode hot = new TreeNode("Hot");
+        TreeNode cold = new TreeNode("Cold");
+        TreeNode coffee = new TreeNode("Coffee");
+        TreeNode tea = new TreeNode("Tea");
+        TreeNode pepsi = new TreeNode("Pepsi");
+        TreeNode coke = new TreeNode("Coke");
 
         drinks.addChild(hot);
         drinks.addChild(cold);
