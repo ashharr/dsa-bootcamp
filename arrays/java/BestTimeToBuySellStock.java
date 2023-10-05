@@ -1,3 +1,5 @@
+package arrays.java;
+
 import java.lang.Math;
 
 class BestTimeToBuySellStock {
