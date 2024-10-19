@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "sorting.QuickSort",
+            "projectName": "dsa-bootcamp_1d565997"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromicString",
+            "request": "launch",
+            "mainClass": "strings.LongestPalindromicString",
+            "projectName": "dsa-bootcamp_1d565997"
+        },
+        {
+            "type": "java",
             "name": "Launch CombinationSum",
             "request": "launch",
             "mainClass": "CombinationSum",
