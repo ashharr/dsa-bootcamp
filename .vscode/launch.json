@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthLargestElement",
+            "request": "launch",
+            "mainClass": "arrays.java.KthLargestElement",
+            "projectName": "dsa-bootcamp_1d565997"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "arrays.java.TwoSum",
+            "projectName": "dsa-bootcamp_1d565997"
+        },
+        {
+            "type": "java",
             "name": "QuickSort",
             "request": "launch",
             "mainClass": "sorting.QuickSort",
