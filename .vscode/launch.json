@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopKFrequent",
+            "request": "launch",
+            "mainClass": "TopKFrequent",
+            "projectName": "dsa-bootcamp_1d565997"
+        },
+        {
+            "type": "java",
             "name": "KthLargestElement",
             "request": "launch",
             "mainClass": "arrays.java.KthLargestElement",

@@ -1,3 +1,5 @@
+package strings;
+
 class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         
@@ -22,7 +24,7 @@ class LongestPalindromicSubstring {
 
 
         
-    }
+    
 
     private static int expandAroundCenter(String s, int left, int right) {
         // TODO Auto-generated method stub
