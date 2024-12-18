@@ -10,6 +10,9 @@
 // Input: head = [3,2,0,-4], pos = 1
 // Output: true
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 /**
  * LinkedListCycle
  */
