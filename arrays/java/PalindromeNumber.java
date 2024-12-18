@@ -1,4 +1,7 @@
-package arrays.java;// 9. Palindrome Number
+package arrays.java;
+
+// 9. Palindrome Number
+
 // Easy
 // Given an integer x, return true if x is a 
 // palindrome
