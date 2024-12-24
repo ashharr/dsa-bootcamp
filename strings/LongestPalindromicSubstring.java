@@ -23,12 +23,6 @@ class LongestPalindromicSubstring {
         }
 
 
-        
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 11123cee8c66330ae15e7744854d62c3f338e91a
 
     private static int expandAroundCenter(String s, int left, int right) {
         // TODO Auto-generated method stub
